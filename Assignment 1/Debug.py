@@ -16,11 +16,11 @@ def main():
 
     #insert your name into this variable
     name = "Tobi"
-    print("Hello, my name is ", Tobi)
+    print("Hello, my name is ", name)
 
     #insert your best friend's name here and have it print out
     name2 = "Sim"
-    print("Hello, my best friend's name is ", Sim)
+    print("Hello, my best friend's name is ", name2)
     
     #put your age here
     age = 18
