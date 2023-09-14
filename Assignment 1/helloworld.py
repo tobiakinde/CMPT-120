@@ -6,11 +6,12 @@
 
 def main():
 
+ print("Hello World")
 
-
+favcolor = "blue"
+print("My favorite color is", favcolor,)
     
-    
-    
-    
+birthday = "02042005"
+print("My Birhtday is", birthday,)
     
 main()
