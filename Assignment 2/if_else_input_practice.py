@@ -6,8 +6,15 @@
 #The third if/else should read: Else if 10 is equal to 10, print out "10 is equal to 10"
 #The else should read: Else print out "10 is less than 10"
 
-
 #additional instructions: instead of setting our variable to 10, what if we asked the user for the variable and used that value in our comparisons?
 def main():
-
+    num = 10
+if num > 10:
+    print ("10 is greater than 12")
+elif num > 11:
+     print ("10 is greater than 11")
+elif num == 10:
+    print("10 is equal to 10")
+else:
+    print("10 is less than 10")
 main()
