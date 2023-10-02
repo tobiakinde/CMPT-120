@@ -30,11 +30,11 @@ def main():
     even = input(int("Enter a number to find out if its even or odd"))
     even = int(even)
     #what do we replace the question marks with?
-    if even ? ? == ?:
+    if even % 2 == 0:
         #what would be appropriate in these print statements?
-        print("")
+        print("is even") 
     else:
-        print("")
+        print("is odd")
   
   
     #i'm trying to do math with the numbers 2 and 4, but it's getting 3 and 5... why?
