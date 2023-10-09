@@ -32,7 +32,7 @@ def main():
     #what do we replace the question marks with?
     if even % 2 == 0:
         #what would be appropriate in these print statements?
-        print("is even") 
+        print("is even")
     else:
         print("is odd")
   
