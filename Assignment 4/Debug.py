@@ -1,13 +1,24 @@
 
 def printHello():
     print("Hello")
+
+def main():
+    printHello()
+main()
     
 def printName(x):
     print(x)
+
+def main():
+    printName("tobi")
+main()
     
 def addition(x, y):
-    #add x and y together and return them
-    return
+    return(x + y)
+def main():
+    print(addition(10,4))
+    main()
+
 
 def smaller(i, j):
     #if i is smaller than j, return i
@@ -19,7 +30,22 @@ def main():
     #call the printHello function here
     
     #call printName and give it the parameter of your name
-    
+    def printHello():
+        print("Hello")
+
+    def main():
+        printHello()
+
+    main()
+
+    def printName(x):
+        print(x)
+
+    def main():
+        printName("tobi")
+
+    main()
+
     var1= 10
     var2= 20
     #What do we put in here to make it work?

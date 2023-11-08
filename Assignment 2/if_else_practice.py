@@ -6,7 +6,13 @@
 
 def main():
     num1 = 10
-if num1 > 10:
-    print("10 is greater than 12")
-
+if num > 12:
+    print ("10 is greater than 12")
+elif num > 11:
+     print ("10 is greater than 11")
+elif num == 10:
+    print("10 is equal to 10")
+else:
+    print("10 is less than 10")
 main()
+
