@@ -21,6 +21,7 @@ def main():
 
 
 def smaller(i, j):
+
     #if i is smaller than j, return i
     #if j is smaller than i, return j
     #if they're even, return 0
@@ -30,21 +31,7 @@ def main():
     #call the printHello function here
     
     #call printName and give it the parameter of your name
-    def printHello():
-        print("Hello")
 
-    def main():
-        printHello()
-
-    main()
-
-    def printName(x):
-        print(x)
-
-    def main():
-        printName("tobi")
-
-    main()
 
     var1= 10
     var2= 20
