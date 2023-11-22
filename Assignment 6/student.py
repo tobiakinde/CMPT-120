@@ -25,8 +25,36 @@ create a function because this college is a wacky one- every day they generate a
 '''
 
 class student:
-    
-    
+
+        def __init__(self, name, gpa, student_id):
+            self.name = name
+            self.gpa = gpa
+            self.student_id = student_id
+
+    def is_eligible_for_honors(student):
+        if student.gpa > 3.5:
+            return True
+        else:
+            return False
+
+    def check_free_lunch_winner(student, generated_id):
+        if student.student_id == generated_id:
+            print(f"Winner! {student.name} gets free lunch!")
+        else:
+            print("Loser!")
+
+
+    student1 = Student(name="tobi akinde", gpa=3.8, student_id="123456")
+
+
+    honors_eligibility = is_eligible_for_honors(student1)
+    print(f"{student1.name}is eligible for honors:{honors_eligibility}")
+
+
+    generated_id = str(random.randint(100000, 999999))
+
+    # Checking for free lunch winner
+    check_free_lunch_winner(student1, generated_id)
     
     
     

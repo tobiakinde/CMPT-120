@@ -10,8 +10,11 @@ class Employee:
         self.department = department
         
 class Cake:
-    #can you fill out the rest of this for me? im dumb
-    #the cake needs to have the cake flavor and cake frosting stored
+    def __innit__(self, carrot, vanilla, strawberry):
+        self.carrot = carrot
+        self.vanilla = vanilla
+        self.strawberry = strawberry
+
 
 class Cat:
     def __init__(self, name, age, fur_length):
@@ -33,35 +36,44 @@ class Car:
         self.color = color
         
     #create your own function! what do you want it to do?
-    
+    def carGuess(self):
+        if self.model == "fancy":
+            return("Range Rover")
+        else:
+            return("Hondo")
+
    
 def main():
     #fill this one out with a dog's name and age.. can be your dog, friend's dog, etc
-    newDog = Dog(? , ?)
-    print(dog1.name, dog1.age)
-    
-    #and what about a new employee
-    newEmployee =
-    #how would we print out each of the variables from newEmployee?
-    print()
-    
-    #now create and print out a cake you make
-    
-    
-    
-    #and now create another cake and print it out
-    
-    
-    
-    #create a cat!
-    cat1 = Cat()
-    #create another cat!
-    
-    #What would we put here to print out the result of breedGuess for cat1?
-    print(cat1.?)
-    
-    #create a car!
-    
-    #Now print out the function you made for car :)
+    newDog = Dog("clearance" , 5)
+    print(newDog.name, newDog.age)
 
-main()
+    newEmployee = Employee("richard", "Head Manager")
+    # Print out each variable from newEmployee
+    print(newEmployee.name, newEmployee.position)
+
+    # Create and print out a cake
+    myCake = Cake("vanilla", 2)
+    print(f"Cake flavor: {myCake.flavor}, Layers: {myCake.layers}")
+
+    # Create another cake and print it out
+    anotherCake = Cake("chocolate", 3)
+    print(f"Cake flavor: {anotherCake.flavor}, Layers: {anotherCake.layers}")
+
+    # Create a cat
+    cat1 = Cat("melissa")
+    # Create another cat
+    cat2 = Cat("lucian")
+
+    # Print out the result of breedGuess for cat1
+    print(cat1.breed)
+
+    # Create a car
+    myCar = Car("tesla", "model y")
+    # Print out the make and model of the car
+    print(f"Car: {myCar.make} {myCar.model}")
+
+
+
+    main()
+
